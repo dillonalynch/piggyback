@@ -1,2 +1,8 @@
 # piggyback
-master branch to new web app 
+
+Piggyback is similar to Waze in that it is comuunity-based mapping/reporting (more focused on the reporting aspect). Just like waze it will require user input for best results. The difference between Waze and Piggyback is that piggyback only focuses on one thing: police. It is esentially a radar tracker that runs off of people reporting where/when they see cops, and all the user's reports "piggyback" on each other to pinpoint where cops are in realtime. 
+Another key difference in piggyback is the VERY simple user interface. The interface wil just consist of a map (similar to what you see in Apple Maps/Google Maps) and will show red dots where cops are in correlation with your location. When you want to report a cop, you simly say the phrase "five-oh" (maybe users can change to a custom phrase) followed by whatever you would like to represent where the cop is, and piggyback's intuitive "tensor flow" back-end will listen to what you say and log it in the database to be used by/with other users. For example, a user might say "five-oh getting on the freeway on other side of road" and piggyback will hear the words, know which direction you are going, know what the user means by freeway and which one he/she is talking about, and reply with "thank you" while updating the cops location in our system.
+Again, the user interface is important. There really wont be much "using" the interface. Talking to and looking at a map for cops will be the extent. The link-chain effect in order to map out cop locations will require a lot of users to be reporting, but the technology to build this is not that complex.
+I was thinking it could tie in with Twitter (similar to how waze does) and maybe even use Twitter as a live feed for updates (PubNub?).
+
+That's it for now. 
